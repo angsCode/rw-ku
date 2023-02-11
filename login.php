@@ -18,6 +18,16 @@
 </head>
 
 <body>
+
+<?php 
+	if(isset($_GET['pesan'])){
+		if($_GET['pesan']=="gagal"){
+			echo "<div class='alert'>Username dan Password tidak sesuai !</div>";
+		}
+	}
+	?>
+
+
   <!-- Login page -->
   <script src="JS/theme.js"></script>
   <div class="navbar navbar-expand-lg bg-primary">
@@ -34,14 +44,16 @@
             <h1>Selamat Datang</h1>
             <p>Silahkan login dengan mengisi username dan password di bawah</p>
           </div>
-          <div class="login-form">
-            <label for="email" class="form-label">NIK</label>
-            <input type="email" class="form-control" id="email" placeholder="silahkan masukkan NIK">
-            <label for="password" class="form-label">Password</label>
-            <input type="password" class="form-control" id="password" placeholder="silahkan masukkan password">
-            <a href="#" class="text-decoration-none text-center">lupa password?</a>
-            <button class="signin">Login</button>
-          </div>
+          <form action="cek_login.php" method="post">
+            <div class="login-form">
+              <label for="email" class="form-label">NIK</label>
+              <input type="text" class="form-control" id="email" placeholder="silahkan masukkan NIK" name="username">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password" placeholder="silahkan masukkan password" name="password">
+              <a href="#" class="text-decoration-none text-center">lupa password?</a>
+              <button class="signin">Login</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>

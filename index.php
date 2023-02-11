@@ -17,12 +17,12 @@
                     </svg></span><span>RWKU</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link active" data-bss-hover-animate="pulse" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" data-bss-hover-animate="pulse" href="index.html">Beranda</a></li>
                     <li class="nav-item"></li>
-                    <li class="nav-item"><a class="nav-link" data-bss-hover-animate="pulse" href="services.html">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" data-bss-hover-animate="pulse" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" data-bss-hover-animate="pulse" href="contacts.html">Contacts</a></li>
-                </ul><a class="btn btn-primary shadow" role="button" data-bss-hover-animate="pulse" href="signup.html">Sign up</a>
+                    <li class="nav-item"><a class="nav-link" data-bss-hover-animate="pulse" href="services.html">Layanan</a></li>
+                    <li class="nav-item"><a class="nav-link" data-bss-hover-animate="pulse" href="about.html">Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" data-bss-hover-animate="pulse" href="contacts.html">Kontak</a></li>
+                </ul><a class="btn btn-primary shadow" role="button" data-bss-hover-animate="pulse" href="login.php">Masuk</a>
             </div>
         </div>
     </nav>
